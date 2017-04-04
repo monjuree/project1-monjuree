@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	width: 100%;
+	margin:0 auto;
+	border: 0;
+  	padding: 0;
+}
+
+	/*------------------ header background ------------*/
+#portfolio-title {
+	height:375px;
+	background-color:#1B2636;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+ 	/*---------------- all <a> tag in the page -----------*/
+a {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	
+}
+
+	/*---------------- all p tag in the page -----------*/
+p {
+	color:black;
+	font-size:18px;
+	font-weight: lighter;
+}
+
+	/*---------------- all h4 in the page -----------*/
+h4 {
+	font-size: 12px;
+	font-weight: bold;
+	color:#7ED321;
+	padding-top:8px;
+}
+
+	/*---------------- nav bar -----------*/	
+nav li {
+	display:inline;
+	padding: 20px;
+}
+
+nav {
+	width: 320px;
+	margin-left: 900px;
+	margin-top:-62px;
+}
+
+	/*---------------- portfolio title  and "M" logo-----------*/
+h1 {
+	font-family: "Adobe Gothic std";
+	font-size: 36px;
+	padding:15px;
+	margin-top: 80px;
+}
+
+ h2 {
+	font-family: "Adobe Gothic std";
+	font-weight: bold;
+	font-size:48px;
+	display: inline;
+	 margin-right: 1000px;
+}
+
+
+	/*---------------- contact me -----------*/
+.contact-me {
+	font-size: 13px;
+	font-weight: bold;
+	border:.55px solid #8D8D8D;
+	padding:10px 40px 10px 40px;
+	margin: auto;
+	display: inline;
+}
+
+	/*------------- border around the images -----------*/
+
+.border {
+	margin: auto;
+	margin-top:45px;
+	margin-bottom: 20px;
+	width:950px;
+	text-align: center;
+	border:1px solid #BBBABA;
+	padding: 15px;
+}
+
+
+	/*---------------- all imgs in the page -----------*/
+img {
+	padding:10px;
+}
+
+.narrow-rectangle {
+	padding:26px;
+}
+		/*---------------- footer -----------*/
+
+.contact{
+	margin: auto;
+}
+footer {
+	background-color:#1B2636;
+	text-align: center;
+	padding:60px;
+}
+
+
+
+

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body { 
+	height:100%;
+	background-image:url(imgs/BG.png);
+	background-size: cover;
+	background-position:center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:white;
+}
+
+	/*---------header----------*/
+header {
+	margin-top:70px;
+	margin-bottom: 166px;
+
+}
+
+h2 {
+	font-family: "Adobe Gothic std";
+	font-weight: bold;
+	font-size:48px;
+	display: inline;
+	margin-left: 102px;
+}
+	/*------------- nav -----------*/
+nav {
+	margin-top:-70px;
+	width: 250px;
+	margin-left: 887px;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+nav li {
+	display:inline;
+	padding: 10px;
+}
+		/*------------section-------*/
+section {
+	text-align: center;
+}
+
+h1 {
+	font-family: "Adobe Gothic std";
+	font-size: 36px;
+	display: inline;
+	padding:6px;
+	border-top: .55px solid #8D8D8D;
+	border-bottom: .55px solid #8D8D8D;
+}
+
+section p {
+	font-size: 16px;
+	font-weight:lighter;
+	line-height: 25px;
+	margin: 2px 330px 30px 330px;
+	padding: 15px;
+}
+
+	/*----------contact me--------------*/
+
+section a {
+	font-size: 13px;
+	font-weight: bold;
+	border:.55px solid #8D8D8D;
+	padding:10px 40px 10px 40px;
+}
+
+
+
