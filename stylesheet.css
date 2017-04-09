@@ -15,21 +15,23 @@ body {
 header {
 	margin-top:70px;
 	margin-bottom: 166px;
-
+	overflow: hidden;
 }
 
 h2 {
 	font-family: "Adobe Gothic std";
 	font-weight: bold;
 	font-size:48px;
-	display: inline;
+	display: inline-block;
 	margin-left: 102px;
+	float:left;
 }
 	/*------------- nav -----------*/
 nav {
-	margin-top:-70px;
 	width: 250px;
-	margin-left: 887px;
+	float:right;
+	margin-top: 50px;
+	margin-right: 84px;
 }
 
 a {
