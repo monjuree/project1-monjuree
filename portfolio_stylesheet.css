@@ -48,25 +48,26 @@ nav li {
 }
 
 nav {
-	width: 320px;
-	margin-left: 900px;
-	margin-top:-62px;
+	float:right;
+	margin-top: 88px;
+	margin-right:80px;
 }
 
 	/*---------------- portfolio title  and "M" logo-----------*/
 h1 {
 	font-family: "Adobe Gothic std";
+	clear: both;
 	font-size: 36px;
-	padding:15px;
-	margin-top: 80px;
 }
 
  h2 {
 	font-family: "Adobe Gothic std";
 	font-weight: bold;
 	font-size:48px;
-	display: inline;
-	 margin-right: 1000px;
+	display:inline-block;
+	float: left; 
+	margin-top: 62px;
+	margin-left: 111px;
 }
 
 
@@ -74,10 +75,9 @@ h1 {
 .contact-me {
 	font-size: 13px;
 	font-weight: bold;
-	border:.55px solid #8D8D8D;
 	padding:10px 40px 10px 40px;
-	margin: auto;
-	display: inline;
+	display:inline-block;
+	border:.55px solid;
 }
 
 	/*------------- border around the images -----------*/
